@@ -1,2 +1,36 @@
+.player {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 5px solid black;
+  position: relative;
+}
 
+.player__video {
+  width: 100%;
+}
+
+.progress {
+  height: 5px;
+  background-color: #ccc;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.progress__filled {
+  background-color: green;
+  height: 100%;
+}
+
+.player__button {
+  font-size: 18px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.player__slider {
+  width: 200px;
+  margin: 5px;
+}
 /* Your CSS Code here. */
