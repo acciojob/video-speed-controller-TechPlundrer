@@ -18,7 +18,7 @@ function togglePlayPause() {
 
 function updateProgress() {
   const progressFilled = (video.currentTime / video.duration) * 100;
-  progress.style.width = ${progressFilled}%;
+  progress.style.width = `${progressFilled}%`;
 
   if (video.ended) {
     toggle.textContent = '►';
